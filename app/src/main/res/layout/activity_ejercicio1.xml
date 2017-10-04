@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dm2.layouts2.Ejercicio1"
+    android:orientation="vertical">
+
+    <TextView   android:id="@+id/primerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduce PRIMER valor:"
+        android:layout_margin="10dp"/>
+
+    <EditText   android:id="@+id/primerEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="number"/>
+
+    <TextView   android:id="@+id/segundoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduce PRIMER valor:"
+        android:layout_margin="10dp"/>
+
+    <EditText   android:id="@+id/segundoEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="number"/>
+
+    <Button     android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUMAR"
+        android:layout_margin="10dp"
+        android:onClick="sumar"/>
+
+    <TextView   android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/laSuma"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

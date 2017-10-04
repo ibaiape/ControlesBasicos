@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Controles básicos</string>
+    <string name="laSuma">La suma es: </string>
+    <string name="resultado">Resultado: </string>
+</resources>
